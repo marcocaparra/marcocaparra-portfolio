@@ -139,3 +139,56 @@ body {
 .destaque {
     font-weight: 700;
 }
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.sobre-div-descricao {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 40%;
+    min-height: 100vh;
+    margin-left: 90px;
+    gap: 10px;
+}
+
+.sobre-titulo {
+    font-family: "Jersey 10", sans-serif;
+    color: #fff;
+    font-size: 90px;
+}
+
+.sobre-div-foto {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 90px;
+}
+
+.sobre-foto {
+    border-radius: 10px;
+}
+
+.certificacoes {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 40%;
+    min-height: 100vh;
+    margin-left: 90px;
+    gap: 10px;
+}
+
+.certificacoes-titulo {
+    font-family: "Jersey 10", sans-serif;
+    color: #fff;
+    font-size: 90px;
+}

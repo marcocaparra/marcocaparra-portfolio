@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #0D0907, #322e2b);
+    background-size: 400%, 400%;
+    animation: bg 12s ease infinite;
+}
+@keyframes bg{
+    0%{
+        background-position: 0%, 50%;
+    }
+
+    50%{
+        background-position: 100%, 100%;
+    }
+
+    100%{
+        background-position: 0%, 50%;
+    }
+}
